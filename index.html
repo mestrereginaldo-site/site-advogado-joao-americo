@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Favicon base64 para caso não tenha arquivo -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
 </head>
 <body>
     <!-- Cursor Personalizado -->
@@ -30,7 +32,7 @@
                 <a href="#sobre" class="nav-link">Sobre</a>
                 <a href="#areas" class="nav-link">Áreas de Atuação</a>
                 <a href="#contato" class="nav-link">Contato</a>
-                <button class="nav-btn">Consulta Rápida</button>
+                <button class="nav-btn consulta-rapida-btn">Consulta Rápida</button>
             </div>
             
             <button class="menu-toggle">
@@ -387,6 +389,8 @@
                     <a href="#sobre">Sobre</a>
                     <a href="#areas">Áreas de Atuação</a>
                     <a href="#contato">Contato</a>
+                    <a href="politica-privacidade.html">Política de Privacidade</a>
+                    <a href="termos-uso.html">Termos de Uso</a>
                 </div>
                 
                 <div class="footer-disclaimer">
@@ -423,6 +427,12 @@
             </form>
         </div>
     </div>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5571999999999?text=Olá,%20gostaria%20de%20uma%20consulta%20com%20o%20Dr.%20João%20Américo" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Fale conosco no WhatsApp</span>
+    </a>
 
     <script src="script.js"></script>
 </body>
